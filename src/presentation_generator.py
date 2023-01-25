@@ -1,5 +1,6 @@
 import collections.abc
 from pptx import Presentation
+from pathlib import Path
 
 class PPTXGenerator:
 
@@ -41,6 +42,8 @@ class PPTXGenerator:
                             p = tf.add_paragraph()
                             p.text = text
 
+
+        Path('./output').mkdir(parents=True, exist_ok=True)
         prs.save(f'./output/{file_name}.pptx')
 
 
