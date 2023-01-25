@@ -1,6 +1,8 @@
 import collections.abc
 from pptx import Presentation
 from pathlib import Path
+import os
+import random
 
 class PPTXGenerator:
 
@@ -14,8 +16,17 @@ class PPTXGenerator:
     # LAYOUT_CONTENT = 7 
     # LAYOUT_PICTURE = 8
 
+    def __init__(self):
+        self._load_themes()
+
+    def _load_themes(self):
+        self.themes = os.listdir("./data/themes")
+
     def generate(self, parsed_presentation, file_name):
-        prs = Presentation()
+
+        theme = random.choice(self.themes)
+
+        prs = Presentation(f"./data/themes/{theme}")
 
         for psl in parsed_presentation:
 
