@@ -19,8 +19,7 @@ class ChatGPT:
 
         if self.debug:
             with open("./debug/conversation.json", "w", encoding="utf-8") as f:
-                data = {"conversation": self.conversation}
-                json.dump(data, f, ensure_ascii=False, sort_keys=False, indent=4)
+                json.dump(self.conversation, f, ensure_ascii=False, sort_keys=False, indent=4)
 
         return resp['message']
 
