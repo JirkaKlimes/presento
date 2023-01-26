@@ -13,9 +13,9 @@ slide_count = int(input("Enter slide count: "))
 language = input("Enter wanted language: ")
 omit_contents_slide = input("Should table of contents be omitted? (Y/N): ").lower() == "y"
 
-# topic = 'rs 232'
+# topic = ''
 # description = ''
-# slide_count = 4
+# slide_count = 8
 # language = 'Czech'
 # omit_contents_slide = True
 
