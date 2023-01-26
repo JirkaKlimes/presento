@@ -1,0 +1,77 @@
+[
+    {
+        "layout": "Title Slide",
+        "heading": "Ropné Havárie - Ekologické Důsledky",
+        "subheading": null,
+        "images": [],
+        "points": null
+    },
+    {
+        "layout": "Title and Content",
+        "heading": "Příčiny Ropných Havárií",
+        "subheading": null,
+        "images": [],
+        "points": [
+            "Poruchy na ropných plošinách",
+            "Poranění ropných tankerů",
+            "Sabotáž a teroristické útoky"
+        ]
+    },
+    {
+        "layout": "Title and Content",
+        "heading": "Důsledky pro Životní Prostředí",
+        "subheading": null,
+        "images": [],
+        "points": [
+            "Znečištění moře a pobřeží",
+            "Zničení ekosystémů",
+            "Úhyn zvířat a rostlin"
+        ]
+    },
+    {
+        "layout": "Title and Content",
+        "heading": "Důsledky pro Lidstvo",
+        "subheading": null,
+        "images": [],
+        "points": [
+            "Ekonomické ztráty",
+            "Škody na zdraví",
+            "Sociální dopady"
+        ]
+    },
+    {
+        "layout": "Title and Content",
+        "heading": "Prevence a Řešení",
+        "subheading": null,
+        "images": [],
+        "points": [
+            "Bezpečnostní opatření na ropných plošinách a tankeru",
+            "Monitorování a kontrola ropných transportů",
+            "Účinné metody čištění a sanace znečištění"
+        ]
+    },
+    {
+        "layout": "Title and Content",
+        "heading": "Příklady Ropných Havárií",
+        "subheading": null,
+        "images": [
+            "images of oil spills"
+        ],
+        "points": [
+            "Havárie v Mexickém zálivu (2010)",
+            "Havárie na ropné plošině Deepwater Horizon (2010)",
+            "Havárie na ropné plošině Exxon Valdez (1989)"
+        ]
+    },
+    {
+        "layout": "Title and Content",
+        "heading": "Závěrem",
+        "subheading": null,
+        "images": [],
+        "points": [
+            "Ropné havárie jsou katastrofou pro životní prostředí a lidstvo",
+            "Je důležité se jim vyvarovat preventivními opatřeními a rychle reagovat při jejich vzniku",
+            "Je nutné snižovat naši závislost na fosilních palivech a přecházet na obnovitelné zdroje energie."
+        ]
+    }
+]
