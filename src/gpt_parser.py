@@ -49,7 +49,11 @@ class GPTPresentationParser:
         else:
             subheading = None
 
-        images = re.compile(r"Images: (.+)").findall(text)[0]
+        images = re.compile(r"Images: (.+)").findall(text)
+        if images:
+            images = images[0]
+        else:
+            images = 'null'
         images = [] if 'null' in images else images.split(', ')
 
         if layout == self.SLIDE_LAYOUT_TITLE_AND_CONTENT:

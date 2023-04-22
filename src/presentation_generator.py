@@ -8,13 +8,6 @@ class PPTXGenerator:
 
     LAYOUT_TITLE = 0
     LAYOUT_TITLE_AND_CONTENT = 1
-    # LAYOUT_SECTION_HEADER = 2
-    # LAYOUT_TOW_CONTENT = 3
-    # LAYOUT_COMPARSION = 4
-    # LAYOUT_TITLE_ONLY = 5
-    # LAYOUT_BLANK = 6
-    # LAYOUT_CONTENT = 7 
-    # LAYOUT_PICTURE = 8
 
     def __init__(self):
         self._load_themes()
